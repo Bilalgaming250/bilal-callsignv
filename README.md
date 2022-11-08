@@ -1,5 +1,5 @@
 # bilal-callsignv
-Script for QBCore that lets you change tou callsign on top of the vehicle. This command is for police only!
+Script for QBCore that lets you change tou callsign on top of the vehicle.!
 
 NOTE: For this to work your vehicles should have mods that changes the callsign of the vehicle
 
