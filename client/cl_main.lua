@@ -25,7 +25,7 @@ RegisterNetEvent('bilal-callsignv:setcallsign', function(callsign)
         return
     end     
 
-    local ped = GetPlayerPed(-1)
+    local ped = PlayerPedId()
     local veh = GetVehiclePedIsIn(ped)
     
     if IsPedInAnyVehicle(ped, false) then
