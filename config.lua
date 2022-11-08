@@ -1,8 +1,3 @@
---[[
-    This Script's default config is meant to be used with nopixel police vehicles!
-    But you can change the Mod that it changes from the below given config!
-]]
-
 Config = {}
 
 Config.ExportName = 'qb-core' -- For Example if you qb-core is renamed to test-core then you can set it over here!
