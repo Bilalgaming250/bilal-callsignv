@@ -1,6 +1,6 @@
 --[[
     This Script's default config is meant to be used with nopixel police vehicles!
-    But you may change the Mod that it changes from the below given config!
+    But you can change the Mod that it changes from the below given config!
 ]]
 
 Config = {}
