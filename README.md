@@ -1,2 +1,26 @@
 # bilal-callsignv
-A vehicle callsign script for FiveM (QBCore)
+Script for QBCore that lets you change tou callsign on top of the vehicle. This command is for police only!
+
+NOTE: For this to work your vehicles should have mods that changes the callsign of the vehicle
+
+## Dependencies
+
+ - [qb-core](https://github.com/qbcore-framework/qb-core)
+ - [qb-input](https://github.com/qbcore-framework/qb-input)
+ - Any Progressbar of your choice [Default](https://github.com/qbcore-framework/progressbar)
+ 
+## Features
+
+ - You can change the Mod Index of your callsign through the Config
+ - Two methods for setting callsign throught the menu/input or throught command (You can change in the config.lua)
+ - You can disable or enable a progressbar that runs after you run the command or click set callsign in the menu
+ - Multiple Jobs that can use the command
+ - Configurable command and command description
+
+## Installation
+### Manual
+ - Download the script and put it in `[standalone]` directory or any directory of your wish in the resources folder
+ - Add the following code to your server.cfg
+ ```
+ ensure bilal-callsignv
+ ```
