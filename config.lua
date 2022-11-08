@@ -4,9 +4,9 @@ Config.ExportName = 'qb-core' -- For Example if you qb-core is renamed to test-c
 Config.Notify = 'qb-notify' -- Choose which notification you want [Currently Two Options - Default QBCore [qb-notify] or okokNotify]
 
 -- Vehicle Mod Indexes at the End
-Config.Num1ModIndex = 42 -- The Mod Index for the First callsign on top of your Vehicle
-Config.Num2ModIndex = 44 -- The Mod Index for the Second callsign on top of your Vehicle
-Config.Num3ModIndex = 45 -- The Mod Index for the Third callsign on top of your Vehicle
+Config.Num1ModIndex = 8 -- The Mod Index for the First callsign on top of your Vehicle
+Config.Num2ModIndex = 9 -- The Mod Index for the Second callsign on top of your Vehicle
+Config.Num3ModIndex = 10 -- The Mod Index for the Third callsign on top of your Vehicle
 
 Config.UseMenu = true -- false = Uses command /callsignv [callsign], true = triggers a menu using qb-input when /callsignv command is executed
 
