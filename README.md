@@ -19,7 +19,7 @@ NOTE: For this to work your vehicles should have mods that changes the callsign 
 ## Features
 
  - You can change the Mod Index of your callsign through the Config
- - Two methods for setting callsign throught the menu/input or throught command (You can change in the config.lua)
+ - Two methods for setting callsign throught the menu/input or through the command (You can change in the config.lua)
  - You can disable or enable a progressbar that runs after you run the command or click set callsign in the menu
  - Multiple Jobs that can use the command
  - Configurable command and command description
