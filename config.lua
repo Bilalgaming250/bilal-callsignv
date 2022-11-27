@@ -7,6 +7,8 @@ Config.Notify = 'qb-notify' -- Choose which notification you want [Currently Two
 Config.Num1ModIndex = 8 -- The Mod Index for the First callsign on top of your Vehicle
 Config.Num2ModIndex = 9 -- The Mod Index for the Second callsign on top of your Vehicle
 Config.Num3ModIndex = 10 -- The Mod Index for the Third callsign on top of your Vehicle
+Config.WaitProgress = 4000 -- The Time of the ProgressBar in MS
+Config.WaitNum = 2500 -- The Time in MS for each number's change [Set To 0 To Disable]
 
 Config.UseMenu = true -- false = Uses command /callsignv [callsign], true = triggers a menu using qb-input when /callsignv command is executed
 

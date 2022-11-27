@@ -41,23 +41,29 @@ RegisterNetEvent('bilal-callsignv:setcallsign', function(callsign)
             local num3 = tonumber(number[3])
 
             if Config.ProgressBar then 
-                QBCore.Functions.Progressbar('callsignv', Config.Text.progressbar, 4000, false, true, {
+                QBCore.Functions.Progressbar('callsignv', Config.Text.progressbar, Config.WaitProgress, false, true, {
                     disableMovement = true,
                     disableCarMovement = true,
                     disableMouse = false,
                     disableCombat = true
                     }, {}, {}, {}, function()
                         SetVehicleModKit(veh, 0)
+                        Wait(Config.WaitNum)
                         SetVehicleMod(veh, Config.Num1ModIndex, num1, false)
+                        Wait(Config.WaitNum)
                         SetVehicleMod(veh, Config.Num2ModIndex, num2, false)
+                        Wait(Config.WaitNum)
                         SetVehicleMod(veh, Config.Num3ModIndex, num3, false)
                     end, function()
                         return
                 end)
             else 
                 SetVehicleModKit(veh, 0)
+                Wait(Config.WaitNum)
                 SetVehicleMod(veh, Config.Num1ModIndex, num1, false)
+                Wait(Config.WaitNum)
                 SetVehicleMod(veh, Config.Num2ModIndex, num2, false)
+                Wait(Config.WaitNum)
                 SetVehicleMod(veh, Config.Num3ModIndex, num3, false)
             end
             
