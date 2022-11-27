@@ -3,6 +3,10 @@ Script for QBCore that lets you change the callsign on top of the vehicle.!
 
 NOTE: For this to work your vehicles should have mods that changes the callsign of the vehicle
 
+## Config
+
+![callsignv-config](https://user-images.githubusercontent.com/76534698/204124205-b609abd3-f5ad-4510-a838-d0594280f7f6.png)
+
 ## Preview
 
 [With qb-input](https://streamable.com/ulcikh)
