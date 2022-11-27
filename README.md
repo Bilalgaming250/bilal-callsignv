@@ -5,7 +5,7 @@ NOTE: For this to work your vehicles should have mods that changes the callsign 
 
 ## Config
 
-![callsignv-config](https://user-images.githubusercontent.com/76534698/204124205-b609abd3-f5ad-4510-a838-d0594280f7f6.png)
+![callsignv-config](https://cdn.discordapp.com/attachments/937265320517853237/1046327903614410774/callsingv.png)
 
 ## Preview
 
